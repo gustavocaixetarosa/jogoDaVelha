@@ -55,9 +55,9 @@ programa {
       }
     } senao {
       vitoriasJogadorDois++
-      se(vitoriasJogadorUm > maiorNumeroVitorias){
-        nomeMaiorVencedor = nomeJogadorUm
-        maiorNumeroVitorias = vitoriasJogadorUm
+      se(vitoriasJogadorDois > maiorNumeroVitorias){
+        nomeMaiorVencedor = nomeJogadorDois
+        maiorNumeroVitorias = vitoriasJogadorDois
       }
     }
     partidasJogadas++
